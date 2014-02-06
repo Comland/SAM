@@ -15,14 +15,84 @@
 *.user
 *.suo
 *.sln.docstates
-_ReSharper.*
 *.sln.cache
 *.xap
 *.ncb
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vscc
 *.vspcc
-*.vscc 
+*.vspscc
 *.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Archivos SQL Server
+App_Data/*.mdf
+App_Data/*.ldf
 
 # Procesos automaticos de VS
 [Bb]ackup*/
 [Uu]pgradeLog*.XML
+[Uu]pgradeLog*.htm
+_UpgradeReport_Files/
+
+# Microsoft Fakes
+FakesAssemblies/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Microsoft Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Click-Once
+publish/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JustCode
+.JustCode
+
+# Proyectos de Business Intelligence
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# =========================
+# Windows detritus
+# =========================
+# Windows cache imagenes
+Thumbs.db
+ehthumbs.db
+
+# Folder config
+Desktop.ini
+
+# Recycle Bin (file shares)
+$RECYCLE.BIN/
